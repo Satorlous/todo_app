@@ -1,0 +1,39 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.nav {
+  background: #222222;
+}
+
+.nav-item > a {
+  font-weight: 300;
+  font-style: italic;
+  color: #D2D2D2;
+}
+
+.navbar-brand{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.logo {
+  margin-left: -15px;
+  height: 40px;
+}
+
+.navbar-nav > li{
+  margin-left: 25px;
+}

@@ -1,0 +1,49 @@
+.header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.task {
+    margin-right: -10px;
+}
+
+.task > .card {
+
+    background: #F8F8F8;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.task:hover {
+    transition: transform .1s ease;
+}
+
+.low {
+    border-left: 10px solid rgb(6,251,87);
+}
+
+.belowMid {
+    border-left: 10px solid rgb(178,240,29);
+}
+
+.mid {
+    border-left: 10px solid rgb(247,244,15);
+}
+
+.belowHigh {
+    border-left: 10px solid rgb(247,133,10);
+}
+
+.high {
+    border-left: 10px solid rgb(241,36,26);
+}
+
+.tasksContainer {
+    margin-top: 20px;
+}
+
+.body {
+    margin-top: 35px;
+}
